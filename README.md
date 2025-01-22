@@ -84,7 +84,7 @@ Each visualization helped to uncover patterns in the data, such as the overall t
 |
 |-- .gitignore
 |-- README.md
-|-- requirements.txt
+|-- 
 ```
 
 ---
