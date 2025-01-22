@@ -32,7 +32,7 @@ After testing, I decided to focus on VADER for its suitability to my discord mes
 The raw data contained various noise elements, such as:
 
 - URLs
-- Emojis, mentions of othe rusers
+- Emojis, mentions of other users
 - Non-alphabetic characters
 
 To clean the data, I:
