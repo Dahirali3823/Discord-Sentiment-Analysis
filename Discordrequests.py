@@ -23,7 +23,7 @@ def retrieve(channelid):
     last_message_id = 1083959512672772096  # Track the ID of the last fetched message
     
     # Clear or initialize the JSON file
-    with open('/Users/dahirali/Desktop/Sentiment analysis/messages.json', 'r', encoding='utf-8') as f:
+    with open('/Users/dahirali/Desktop/Sentiment analysis/Samplemessages.json', 'r', encoding='utf-8') as f:
          existing_data = json.load(f)
     
     while True:
@@ -55,7 +55,7 @@ def retrieve(channelid):
         ]
         
         # Append messages incrementally to the JSON file
-        with open('/Users/dahirali/Desktop/Sentiment analysis/messages.json', 'r+', encoding='utf-8') as f:
+        with open('/Users/dahirali/Desktop/Sentiment analysis/Samplemessages.json', 'r+', encoding='utf-8') as f:
             # Load existing data
             existing_data = json.load(f)
             # Extend the list with new filtered messages
